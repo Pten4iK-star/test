@@ -9,10 +9,25 @@ h1{
   color: rgb(26, 10, 128);
   background: rgb(0, 153, 255);
 }
-header{
+main{
+  float: left;
+  width: 68%;
+}
+aside{
+  float: right;
+  width: 25%;
+}
+footer{
+  clear: both;
+}
+header,main,aside,footer
+{
   border: 1px solid green;
   padding: 10px;
   margin: 10px;
+}
+#articles{
+  background-color: #878dd9;
 }
 p{
   text-align: center;
