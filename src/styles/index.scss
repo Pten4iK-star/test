@@ -1,77 +1,57 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 body{
   padding: 5px;
 }
-h1{
-  color: rgb(26, 10, 128);
-  background: rgb(0, 153, 255);
+
+header,footer,a{
+  color: rgb(205, 202, 219);
+  background: rgb(72, 74, 75);
+  padding-bottom: 5px;
 }
 main{
   float: left;
-  width: 68%;
+  width: 70%;
 }
 aside{
   float: right;
-  width: 25%;
+  width: 30%;
 }
 footer{
   clear: both;
+  }
+
+h3{
+  color:  rgb(116, 76, 38);
+  ;
 }
-header,main,aside,footer
-{
-  border: 1px solid green;
-  padding: 10px;
-  margin: 10px;
-}
-#articles{
-  background-color: #878dd9;
-}
-p{
+h1,nav{
   text-align: center;
- 
 }
 
-body{
-  background:whitesmoke;
+p{
+  text-align: left;
+ 
 }
 
 figcaption{
   font-size: 20px;
-  color:rgb(98, 0, 255) ;
+  color: rgb(106, 105, 110);
 }
 #sectionWithBackground {
-background:rgba(192, 192, 192, 0.767) ;
+background:rgba(65, 64, 64, 0.767) ;
 }
 #headerWithStyles{
-  color: #878dd9;
+  color: #7c7d80;
   background: rgba(214, 205, 219, 0.5);
 }
 
-.yellowBackgroumd{
-  background: yellowgreen;
-  color: black;
-}
 
 .text-align-center{
   text-align: center;
-}
-#sectionWithBackground{
-  background-color: seashell;
-  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/hotel-wallpaper.png);
-background-repeat: repeat-x;
-border-width: 5px;
-border-style: solid;
-border-radius: 25px;
-padding: 10px;
-}
 
-#sectionWithBackground h3{
-  border-left-color:skyblue ;
-  border-left-width: 10px; 
-  border-left-style: solid;
 }
 $body-color: black;
 
@@ -79,19 +59,18 @@ body{
   color: $body-color;
   font-family: sans-serif;
 }
-
+thead{
+  background-color:  rgba(214, 205, 219, 0.5);
+}
 table{
   border-collapse: collapse;
 }
 table,tr,td,th{
   border: 1px solid black;
+  
 }
 
-img{
-  margin: 10px 5px;
-  border-radius: 10px ;
-}
 
 .roundImage{
-  border-radius: 50px;
+  border-radius: 0px;
 }
