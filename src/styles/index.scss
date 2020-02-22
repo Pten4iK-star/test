@@ -11,14 +11,17 @@ header,footer,a{
   background: rgb(72, 74, 75);
   padding-bottom: 5px;
 }
+
 main{
   float: left;
   width: 70%;
 }
+
 aside{
   float: right;
   width: 30%;
 }
+
 footer{
   clear: both;
   }
@@ -27,6 +30,7 @@ h3{
   color:  rgb(116, 76, 38);
   ;
 }
+
 h1,nav{
   text-align: center;
 }
@@ -40,19 +44,29 @@ figcaption{
   font-size: 20px;
   color: rgb(106, 105, 110);
 }
+
 #sectionWithBackground {
 background:rgba(65, 64, 64, 0.767) ;
 }
+
 #headerWithStyles{
   color: #7c7d80;
   background: rgba(214, 205, 219, 0.5);
 }
 
+#widthHeightTest{
+  width: 200px;
+  height:300px;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid rgb(68, 68, 73);
+  margin: 5px;
+  background-color: rgba(214, 205, 219, 0.5)
+}
 
 .text-align-center{
   text-align: center;
-
 }
+
 $body-color: black;
 
 body{
