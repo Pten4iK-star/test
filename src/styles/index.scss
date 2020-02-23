@@ -1,90 +1,131 @@
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-body{
+body {
   padding: 5px;
 }
 
-header,footer,a{
+header,
+footer,
+a {
   color: rgb(205, 202, 219);
   background: rgb(72, 74, 75);
   padding-bottom: 5px;
 }
 
-main{
+main {
   float: left;
   width: 70%;
 }
 
-aside{
+aside {
   float: right;
   width: 30%;
 }
 
-footer{
+footer {
   clear: both;
-  }
-
-h3{
-  color:  rgb(116, 76, 38);
-  ;
 }
 
-h1,nav{
+h3 {
+  color: rgb(116, 76, 38);
+}
+
+h3 {
+  letter-spacing: 2px;
+}
+
+p {
+  text-indent: 25px;
+  line-height: 1.5;
+  // word-spacing: 10px;
+  //text-shadow: 3px 2px #7c7d80;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1,
+nav {
   text-align: center;
 }
 
-p{
+p {
   text-align: left;
- 
 }
 
-figcaption{
+figcaption {
   font-size: 20px;
   color: rgb(106, 105, 110);
 }
 
 #sectionWithBackground {
-background:rgba(65, 64, 64, 0.767) ;
+  background: rgba(65, 64, 64, 0.767);
 }
 
-#headerWithStyles{
+#headerWithStyles {
   color: #7c7d80;
   background: rgba(214, 205, 219, 0.5);
 }
 
-#widthHeightTest{
+#widthHeightTest {
   width: 200px;
-  height:300px;
+  height: 300px;
   padding: 20px 10px 20px 10px;
   border: 2px solid rgb(68, 68, 73);
   margin: 5px;
-  background-color: rgba(214, 205, 219, 0.5)
+  //background-color: rgba(214, 205, 219, 0.5)
+  outline-style: auto;
+  outline-color: aqua;
+  outline-width: thin;
 }
 
-.text-align-center{
+.text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 $body-color: black;
 
-body{
+body {
   color: $body-color;
   font-family: sans-serif;
 }
-thead{
-  background-color:  rgba(214, 205, 219, 0.5);
+thead {
+  background-color: rgba(214, 205, 219, 0.5);
 }
-table{
+table {
   border-collapse: collapse;
 }
-table,tr,td,th{
+table,
+tr,
+td,
+th {
   border: 1px solid black;
-  
 }
 
-
-.roundImage{
+.roundImage {
   border-radius: 0px;
 }
