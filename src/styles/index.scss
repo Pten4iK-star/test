@@ -46,13 +46,11 @@ p {
 .text-lowercase {
   text-transform: lowercase;
 }
-.text-capitalize {
-  text-transform: capitalize;
-}
+
 
 h1,
 h3 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 nav a {
