@@ -5,32 +5,36 @@ const user = {
   lastName: "Tsybenko",
   age: 34,
   dateOfBirth: "07.09.1985",
-  hight: 170,
-  information: function() {
-    console.log("Natalia+Tsybenko+07.09.1985");
+  height: 170,
+  hasAnimal: true,
+  notHasAnimal: false,
+
+  getInformation: function() {
+    console.log(this.name + this.lastName + this.dateOfBirth);
   }
 };
-const HasAnymal = true;
-const notHasAnymal = false;
-console.log(typeof user);
-console.log(typeof HasAnymal);
-console.log(typeof notHasAnymal);
-const FevFood = {
-  sweeds: "ice cream",
+console.log(user.height);
+console.log(user.notHasAnimal);
+console.log(user.hasAnimal);
+user.getInformation();
+
+const user2 = {
+  sweets: "ice cream",
   candy: "chocolate",
   cake: "biscuit"
 };
-const FevFood2 = {
+const user3 = {
   first: "soup",
   fixings: "pasta",
   entree: "fish"
 };
 
-const myFevFoods = [FevFood, FevFood2];
-console.log(typeof myFevFoods);
-console.log(myFevFoods[0]);
-console.log(myFevFoods[1]);
-user.information();
+const myFavFoods = [user2, user3];
+console.log(typeof myFavFoods);
+console.log(myFavFoods[0].sweets);
+console.log(myFavFoods[1].fixings);
+console.log(myFavFoods[0]);
+console.log(myFavFoods[1]);
 
 console.log("--------------------------");
 const a = 7;
