@@ -8,9 +8,15 @@ const user = {
   height: 170,
   hasAnimal: true,
   notHasAnimal: false,
+  first: "soup",
+  fixings: "pasta",
+  entree: "fish",
+  sweets: "ice cream",
+  candy: "chocolate",
+  cake: "biscuit",
 
   getInformation: function() {
-    console.log(this.name + this.lastName + this.dateOfBirth);
+    console.log(this.name + "  " + this.lastName + "  " + this.dateOfBirth);
   }
 };
 console.log(user.height);
@@ -18,23 +24,11 @@ console.log(user.notHasAnimal);
 console.log(user.hasAnimal);
 user.getInformation();
 
-const user2 = {
-  sweets: "ice cream",
-  candy: "chocolate",
-  cake: "biscuit"
-};
-const user3 = {
-  first: "soup",
-  fixings: "pasta",
-  entree: "fish"
-};
-
-const myFavFoods = [user2, user3];
+const myFavFoods = [user];
 console.log(typeof myFavFoods);
 console.log(myFavFoods[0].sweets);
-console.log(myFavFoods[1].fixings);
-console.log(myFavFoods[0]);
-console.log(myFavFoods[1]);
+console.log(myFavFoods[0].fixings);
+console.log(myFavFoods[0].cake);
 
 console.log("--------------------------");
 const a = 7;
