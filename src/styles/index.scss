@@ -1,5 +1,40 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#viewportWidth {
+  font-size: 5vw;
+}
+
+#serifFont {
+  font-family: Serif;
+}
+
+#sansSerifFont {
+  font-family: sans-serif;
+}
+#monospaceFont {
+  font-family: monospace;
+}
+
+.font-bolder {
+  font-weight: bolder;
+}
+
+.font-monospace {
+  font-style: italic;
+}
+
+.font-smallCaps {
+  font-variant: small-caps;
+}
+
+i.fas {
+  font-size: 40px;
+}
+
+i.fab {
+  font-size: 40px;
 }
 
 body {
@@ -46,7 +81,6 @@ p {
 .text-lowercase {
   text-transform: lowercase;
 }
-
 
 h1,
 h3 {
