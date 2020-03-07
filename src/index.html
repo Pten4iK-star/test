@@ -6,7 +6,7 @@
     <meta name="description" content="Web page from online course Profronted" />
     <meta name="keywords" content="HTML,actor,Tom Henks" />
     <meta name="author" content="Natalia Tsybenko" />
-    </html><meta http-equiv="refresh" content="100" />
+    <meta http-equiv="refresh" content="100" />
     <title>webpack starter</title>
     <style>
       body {
@@ -18,8 +18,9 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
    
   </head>
+  </html>
 
-  <body>
+  <body onload="onPageLoad()">
     <header>
       <h1><span>ProFronted</span></h1>
       <nav>
@@ -28,6 +29,16 @@
         <a href="#">Store</a>
       </nav>
     </header>
+    <section class="paddingInSection">
+      <input type="text"  value="Hello" onchange="validateField(this.value)">
+      <button onclick="buttonClick()">Click me!</button>
+      <input type="button" value="What date is today?" onclick="showTodaysDate()">
+      <br>
+      <input type="Text"
+      onkeydown="console.log('Key down')"
+      onkeyup="console.log('Key uo')">
+ </section>
+
     <section>
      
       <div id="serifFont">
@@ -42,8 +53,7 @@
       <i class="fab fa-airbnb"></i>
       <i class="fas fa-biking"></i>
       </section>
-      
-    <section>
+       <section>
       <h1 id="viewportWidth">Video</h1>
       <video controls width="300" height="200">
         <source
@@ -69,7 +79,9 @@
     </section>
 
     <main>
-      <div id="widthHeightTest">
+      <div onmouseover="overDiv()"
+      onmouseout="outDiv()"
+       id="widthHeightTest">
         <section>
           <p>
             This article is about the American actor.
