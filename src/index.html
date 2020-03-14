@@ -13,13 +13,12 @@
         background: rgb(158, 156, 149);
       }
     </style>
-    <script>alert('Hello')</script>
-    <link rel="stylesheet" href="">
-    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
-   
+    <script>
+      alert("Hello");
+    </script>
+    <link rel="stylesheet" href="" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
-  </html>
-
   <body onload="onPageLoad()">
     <header>
       <h1><span>ProFronted</span></h1>
@@ -30,30 +29,35 @@
       </nav>
     </header>
     <section class="paddingInSection">
-      <input type="text"  value="Hello" onchange="validateField(this.value)">
+      <input type="text" value="Hello" onchange="validateField(this.value)" />
       <button onclick="buttonClick()">Click me!</button>
-      <input type="button" value="What date is today?" onclick="showTodaysDate()">
-      <br>
-      <input type="Text"
-      onkeydown="console.log('Key down')"
-      onkeyup="console.log('Key uo')">
- </section>
+      <input
+        type="button"
+        value="What date is today?"
+        onclick="showTodaysDate()"
+      />
+      <br />
+      <input
+        type="Text"
+        onkeydown="console.log('Key down')"
+        onkeyup="console.log('Key uo')"
+      />
+    </section>
 
     <section>
-     
       <div id="serifFont">
-      <p class="font-bolder">Text 1</p>
-    </div>
+        <p class="font-bolder">Text 1</p>
+      </div>
       <div id="sansSerifFont">
-      <p class="font-monospace">Text 2</p>
-    </div>
-    <div id="monospaceFont">
-      <p class="font-smallCaps">Text 3</p>
-    </div>
+        <p class="font-monospace">Text 2</p>
+      </div>
+      <div id="monospaceFont">
+        <p class="font-smallCaps">Text 3</p>
+      </div>
       <i class="fab fa-airbnb"></i>
       <i class="fas fa-biking"></i>
-      </section>
-       <section>
+    </section>
+    <section>
       <h1 id="viewportWidth">Video</h1>
       <video controls width="300" height="200">
         <source
@@ -79,9 +83,7 @@
     </section>
 
     <main>
-      <div onmouseover="overDiv()"
-      onmouseout="outDiv()"
-       id="widthHeightTest">
+      <div onmouseover="overDiv()" onmouseout="outDiv()" id="widthHeightTest">
         <section>
           <p>
             This article is about the American actor.
