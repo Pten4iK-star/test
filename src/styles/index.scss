@@ -1,6 +1,25 @@
 //* {
-  //font-family: Verdana, Geneva, Tahoma, sans-serif;
+//font-family: Verdana, Geneva, Tahoma, sans-serif;
 //}
+
+.combinators > div {
+  background-color: blueviolet;
+}
+span + section {
+  background-color: rgb(233, 20, 169);
+}
+
+span ~ div {
+  background-color: green;
+}
+
+.ol-styled > li {
+  color: rgb(22, 56, 209);
+}
+
+.ol-styled > ul > li {
+  color: green;
+}
 
 #viewportWidth {
   font-size: 5vw;
