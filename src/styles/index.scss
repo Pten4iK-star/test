@@ -12,6 +12,48 @@
 //   justify-content: center;
 //   align-items: center;
 // }
+
+ul a:link {
+  color: rgb(126, 12, 21);
+}
+
+ul a:visited {
+  color: rgb(5, 4, 4);
+}
+
+ul a:hover {
+  background: #e65480;
+  border: 2px solid black;
+}
+
+ul a:active {
+  color: rgb(68, 10, 175);
+}
+
+.highlight:hover {
+  background: rgb(192, 16, 119);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.highlight:hover > a {
+  display: inline;
+}
+
+.highlight > a {
+  display: none;
+}
+
+ul li:last-child{
+  color: red;
+}
+
+
+
+// ul li:nth-child(4){
+//   color: gold;
+// }
+
 .parent {
   //width: 100px;
   //height: 200px;
