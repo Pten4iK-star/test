@@ -1,5 +1,7 @@
 import "../styles/index.scss";
 import "./events";
+import "bootstrap";
+import "../scripts"
 const user = {
   name: "Natalia",
   lastName: "Tsybenko",
