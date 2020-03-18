@@ -3,264 +3,183 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Web page from online course Profronted" />
-    <meta name="keywords" content="HTML,actor,Tom Henks" />
-    <meta name="author" content="Natalia Tsybenko" />
-    <meta http-equiv="refresh" content="100" />
-    <title>webpack starter</title>
-    <style>
-      body {
-        background: rgb(158, 156, 149);
-      }
-    </style>
-    <script>
-      alert("Hello");
-    </script>
-    <link rel="stylesheet" href="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Matrix by S. Covey</title>
   </head>
-  <body onload="onPageLoad()">
-    <header>
-      <h1><span>ProFronted</span></h1>
-      <nav>
-        <a href="../src/test.html">Hom</a>
-        <a href="#">Blog</a>
-        <a href="#">Store</a>
-      </nav>
-    </header>
-    <section class="paddingInSection">
-      <input type="text" value="Hello" onchange="validateField(this.value)" />
-      <button onclick="buttonClick()">Click me!</button>
-      <input
-        type="button"
-        value="What date is today?"
-        onclick="showTodaysDate()"
-      />
-      <br />
-      <input
-        type="Text"
-        onkeydown="console.log('Key down')"
-        onkeyup="console.log('Key uo')"
-      />
-    </section>
+  <body>
+    <div class="container-fluid lists-container">
+      <div class="row">
+        <div class="col-6" id="importantAndUrgent">
+          <div class="row h-10 header-background">
+            <div class="col-12"><h4>Important And Urgent</h4></div>
+          </div>
 
-    <section>
-      <div id="serifFont">
-        <p class="font-bolder">Text 1</p>
-      </div>
-      <div id="sansSerifFont">
-        <p class="font-monospace">Text 2</p>
-      </div>
-      <div id="monospaceFont">
-        <p class="font-smallCaps">Text 3</p>
-      </div>
-      <i class="fab fa-airbnb"></i>
-      <i class="fas fa-biking"></i>
-    </section>
-    <section>
-      <ol class="ol-styled">
-        <li>Cat</li>
-        <li>Dog</li>
-        <ul>
-          <li>Fish</li>
-          <li>
-            <span>Snake</span>
-            <section>Ohh snake!</section>
-          </li>
-        </ul>
-      </ol>
-    </section>
-    <section class="combinators">
-      <div>Text hello world</div>
-      <span>Some text</span>
-      <section class="inner-combinators">
-        <span>More text</span>
-        <div>I am also div</div>
-      </section>
-    </section>
-    <section>
-      <h1 id="viewportWidth">Video</h1>
-      <video controls width="300" height="200">
-        <source
-          src="../src/video/Видео прикол про котов. Короткие приколы про животных.mp4"
-        />
-        <br />
-      </video>
-      <audio controls>
-        <source
-          src="../src/audio/LP - Lost On You (Addal Remix).mp3"
-          type="audio/mpeg"
-        />
-        <br />
-      </audio>
-      <iframe
-        width="300"
-        height="200"
-        src="https://www.youtube.com/embed/CVuFv0pSzQ4"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
+          <div class="row h-75">
+            <div class="col-6">
+              <h6>Todo</h6>
+              <ul>
+                <li><input type="checkbox" />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+            </div>
 
-    <main>
-      <div onmouseover="overDiv()" onmouseout="outDiv()" id="widthHeightTest">
-        <section>
-          <p>
-            This article is about the American actor.
-            <br />
-            Hanks was married to American actress Samantha Lewes in 1978.
-            <br />
-            They had one son, actor Colin Hanks (born 1977),and one daughter,
-            Elizabeth Hanks (born 1982).
-            <br />
-            Hanks and Samantha Lewes divorced in 1987.
-            <br />
-          </p>
-        </section>
+            <div class="col-6">
+              <h6>Done</h6>
+              <ul class="doneList">
+                <li><input type="checkbox" checked />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row h-15">
+            <div class="col-8">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Add new task"
+                />
+              </div>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-secondary btn-block">
+                Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6" id="importantAndNotUrgent">
+          <div class="row h-10 header-background">
+            <div class="col-12"><h4>Important And Not Urgent</h4></div>
+          </div>
+          
+          <div class="row h-75">
+            <div class="col-6">
+              <h6>Todo</h6>
+              <ul>
+                <li><input type="checkbox" />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6>Done</h6>
+              <ul class="doneList">
+                <li><input type="checkbox" checked />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row h-15">
+            <div class="col-8">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Add new task"
+                />
+              </div>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-secondary btn-block">
+                Add
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <section>
-        <h3 class="text-center">
-          My first HTML page
-        </h3>
-        <p class="text-center">Styles and sematic tags</p>
-      </section>
-      <section>
-        <p class="text-center">Tom Hanks</p>
-        <p>
-          "Thomas Jeffrey Hanks (born July 9, 1956) is an American actor and
-          filmmaker. Hanks is known for his comedic and dramatic roles in such
-          films as Splash (1984), Bachelor Party (1984), Big (1988), Turner &
-          Hooch (1989), A League of Their Own (1992), Sleepless in Seattle
-          (1993), Forrest Gump (1994), Apollo 13 (1995), You've Got Mail (1998),
-          The Green Mile (1999), Cast Away (2000), Road to Perdition (2002),
-          Cloud Atlas (2012), Captain Phillips (2013), Saving Mr. Banks (2013),
-          Sully (2016), and A Beautiful Day in the Neighborhood (2019). He has
-          also starred in the Robert Langdon films, and he voices Sheriff Woody
-          in the Toy Story film series. He is one of the most popular and
-          recognizable film stars worldwide, and he is widely regarded as an
-          American cultural icon.
-        </p>
-      </section>
-      <section>
-        <a href="https://en.wikipedia.org/wiki/Tom_Hanks" target="_blank">
-          <figure>
-            <img
-              class="roundImage"
-              src="../src/images/tomhanks_book-1.jpg"
-              alt="Tom_Hanks"
-              width="350px"
-            />
-            <figcaption>Thomas Jeffrey Hanks</figcaption>
-          </figure>
-        </a>
-      </section>
-      <section>
-        <article>
-          <p>
-            Hanks has collaborated with film director Steven Spielberg on five
-            films to date: Saving Private Ryan (1998), Catch Me If You Can
-            (2002), The Terminal (2004), Bridge of Spies (2015), and The Post
-            (2017), as well as the 2001 miniseries Band of Brothers, which
-            launched Hanks as a successful director, producer, and screenwriter.
-            In 2010, Spielberg and Hanks were executive producers on the HBO
-            miniseries The Pacific.
-          </p>
-          <p>
-            Hanks' films have grossed more than $4.9 billion at U.S. and
-            Canadian box offices and more than $9.96 billion worldwide,[2]
-            making him the fifth-highest-grossing actor in North America.[3] His
-            awards include a Golden Globe Award and an Academy Award for his
-            role in Philadelphia (1993), as well as a Golden Globe Award, an
-            Academy Award, a Screen Actors Guild Award, and a People's Choice
-            Award for Forrest Gump (1994). Hanks is one of only two actors to
-            win the Academy Award for Best Actor in consecutive years, Spencer
-            Tracy being the other.[4] In 2004, he received the Stanley Kubrick
-            Britannia Award for Excellence in Film from the British Academy of
-            Film and Television Arts (BAFTA).[5] In 2014, he received a Kennedy
-            Center Honor, and in 2016, he received a Presidential Medal of
-            Freedom from President Barack Obama
-          </p>
-        </article>
-      </section>
-      <section>
-        <h3 class="text-center">
-          Table from prev exercise
-        </h3>
-        <table>
-          <thead>
-            <tr>
-              <th rowspan="3">Day</th>
-              <th colspan="4">Модуль 2- ProFronted</th>
-            </tr>
-            <tr>
-              <th colspan="2">План</th>
-              <th rowspan="2">Тема</th>
-            </tr>
-            <tr>
-              <th>Начало</th>
-              <th>Конец</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td rowspan="2">Понедельник</td>
-              <td rowspan="2">20:00</td>
-              <td rowspan="2">21:00</td>
-              <td colspan="2">HTML:Списки</td>
-            </tr>
-            <tr>
-              <td colspan="2">HTML:Таблицы</td>
-            </tr>
-            <tr>
-              <td>Среда</td>
-              <td>19:00</td>
-              <td>22:00</td>
-              <td colspan="2">HTML:Ссылки и картинки</td>
-            </tr>
-            <tr>
-              <td>Пятница</td>
-              <td>21:00</td>
-              <td>22:00</td>
-              <td colspan="2">Домашка</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-    </main>
-    <aside>
-      <h3>Series & Movies List</h3>
-      <ul>
-        <li>
-          <h3>Sitcom</h3>
-        </li>
-        <ol tape="1">
-          <li>Brooklyn Nine-Naine</li>
-          <li>The Big Beng Theory</li>
-          <li>Modern Family</li>
-        </ol>
-      </ul>
-      <ul>
-        <li>
-          <h3>Drama</h3>
-          <ol tape="1">
-            <li>The Handmaid's Tale</li>
-            <li>The Crown</li>
-            <li>Drama Movies</li>
-            <ul>
-              <li>Lady Bird</li>
-              <li>12 Years a Slave</li>
-            </ul>
-          </ol>
-        </li>
-      </ul>
-    </aside>
-    <footer>
-      <nav>
-        <a href="#">Hom page</a>
-        <a href="#">Contact</a>
-        <a href="#">About Us</a>
-      </nav>
-    </footer>
+      <div class="row">
+        <div class="col-6" id="notImportantAndUrgent">
+          <div class="row h-10 header-background">
+            <div class="col-12"><h4>Not Important And Urgent</h4></div>
+          </div>
+
+          <div class="row h-75">
+            <div class="col-6">
+              <h6>Todo</h6>
+              <ul>
+                <li><input type="checkbox" />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6>Done</h6>
+              <ul class="doneList">
+                <li><input type="checkbox" checked />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="row h-15">
+            <div class="col-8">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Add new task"
+                />
+              </div>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-secondary btn-block">
+                Add
+              </button>
+            </div>
+
+        </div>
+        </div>
+        <div class="col-6" id="notImportantAndNotUrgent">
+          <div class="row h-10 header-background">
+            <div class="col-12"><h4>Not Important And Not Urgent</h4></div>
+          </div>
+          
+          <div class="row h-75">
+            <div class="col-6">
+              <h6>Todo</h6>
+              <ul>
+                <li><input type="checkbox" />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6>Done</h6>
+              <ul class="doneList">
+                <li><input type="checkbox" checked />Task 1 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 2 <i class="fas fa-trash"></i></li>
+                <li><input type="checkbox" checked />Task 3 <i class="fas fa-trash"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row h-15">
+            <div class="col-8">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Add new task"
+                />
+              </div>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-secondary btn-block">
+                Add
+              </button>
+            </div>
+
+          
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>
