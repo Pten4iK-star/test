@@ -1,84 +1,97 @@
-html,
-body,
-.lists-container {
-  height: 100%;
-}
+// html,
+// body,
+// .lists-container {
+//   height: 100%;
+// }
+
+// body {
+//   font-family: sans-serif;
+// }
+
+// .lists-container > .row {
+//   height: 50%;
+//   border-bottom: 1px solid black;
+// }
+
+// .lists-container ul {
+//   list-style-type: none;
+//   padding-left: 0;
+//   .fa-trash {
+//     display: none;
+//   }
+
+//   li {
+//     cursor: pointer;
+//   }
+
+//   li:hover {
+//     .fa-trash {
+//       display: inline;
+//       color: darkred;
+//     }
+//   }
+// }
+
+// .doneList li {
+//   text-decoration: line-through;
+// }
+
+// .lists-container > .row > .col-6 {
+//   border-right: 1px solid black;
+// }
+
+// .h-15 {
+//   height: 15%;
+// }
+
+// .h-10 {
+//   height: 10%;
+// }
+
+// #importantAndUrgent {
+//   background-color: blueviolet;
+//   .header-background {
+//     background-color: rgb(90, 13, 163);
+//   }
+// }
+
+// .header-background {
+//   border-bottom: 1px solid black;
+// }
+
+// #importantAndNotUrgent {
+//   background-color: chartreuse;
+//   .header-background {
+//     background-color: rgb(87, 160, 14);
+//   }
+// }
+
+// #notImportantAndUrgent {
+//   background-color: coral;
+//   .header-background {
+//     background-color: rgb(204, 75, 29);
+//   }
+// }
+
+// #notImportantAndNotUrgent {
+//   background-color: darkcyan;
+//   .header-background {
+//     background-color: rgb(8, 102, 102);
+//   }
+// }
 
 body {
-  font-family: sans-serif;
+  color: blue;
 }
 
-.lists-container > .row {
-  height: 50%;
-  border-bottom: 1px solid black;
+p {
+  font-size: 19px;
 }
 
-.lists-container ul {
-  list-style-type: none;
-  padding-left: 0;
-  .fa-trash {
-    display: none;
-  }
-
-  li {
-    cursor: pointer;
-  }
-
-  li:hover {
-    .fa-trash {
-      display: inline;
-      color: darkred;
-    }
-  }
+.wrong {
+  color: red;
 }
 
-.doneList li {
-  text-decoration: line-through;
+.success {
+  color: green;
 }
-
-.lists-container > .row > .col-6 {
-  border-right: 1px solid black;
-}
-
-.h-15 {
-  height: 15%;
-}
-
-.h-10 {
-  height: 10%;
-}
-
-#importantAndUrgent {
-  background-color: blueviolet;
-  .header-background {
-    background-color: rgb(90, 13, 163);
-  }
-}
-
-.header-background {
-  border-bottom: 1px solid black;
-}
-
-#importantAndNotUrgent {
-  background-color: chartreuse;
-  .header-background {
-    background-color: rgb(87, 160, 14);
-  }
-}
-
-#notImportantAndUrgent {
-  background-color: coral;
-  .header-background {
-    background-color: rgb(204, 75, 29);
-  }
-}
-
-#notImportantAndNotUrgent {
-  background-color: darkcyan;
-  .header-background {
-    background-color: rgb(8, 102, 102);
-  }
-}
-
-
-
