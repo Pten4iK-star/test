@@ -1,7 +1,7 @@
 import "../styles/index.scss";
 import "./events";
-// import "bootstrap/dist/css/bootstrap.min.css";
-import "../scripts";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../index.js";
 
 // let importantAndUrgent;
 // let importantAndNotUrgent;
